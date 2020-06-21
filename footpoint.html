@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <title>footpoint</title>
+  <link rel="stylesheet" href="css/smilemoon.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/table.css" rel="stylesheet"/>
+  </head>
+  <!-- 插入一张雪山的图作为背景并且延展到全屏不重复 -->
+  <body  background="img/background.jpg" style=" background-repeat:no-repeat; background-size:100% 100%; background-attachment: fixed;">
+  <!-- 页眉由logo和座右铭组成 -->
+    <header class="top">
+  <!-- 插入一张组合的图作为logo并且摆在左上角 -->
+      <img id="headerLogo"
+        src="img/logo.png" alt="smilemoon logo image">
+  <!-- 插入一段文字的图作为座右铭并且固定在右上角 -->
+      <img id="headerSlogan"
+        src="img/slogan.png" alt="The road goes on forever as long as it doesn't stop.SO,don't stop!">
+    </header>
+  <!-- 页眉结束 -->
+  <!-- 这个区域划定为头像，点击头像会出现“个人资料”的网页 -->
+    <div class="content">
+        <a href="apply.html">
+            <img class="user-head" src="img/user-head.jpg" alt="头像无法显示">
+        </a>
+    </div>
+  <!-- 主体部分划分为一个大板块，规定一些默认的样式 -->
+    <div id="allcontent">
+  <!-- 导航栏 -->  
+    <nav>
+    <ul>
+        <li><a href="homepage.gtml">首页</a></li>
+  <!-- 导航栏中该处存在有下拉菜单 -->
+        <span class="extend">
+        <li class="selected"><a href="footpoint.html">我的足迹</a></li>
+            <ul class="sub-nav">
+                <li><a href="hainan.html">海南</a></li>
+                <li><a href="chengdu.html">成都</a></li>
+                <li><a href="shanghai.html">上海</a></li>
+            </ul>
+        </span>
+  <!-- 下拉菜单结束 -->
+        <li><a href="#">个人资料</a></li>
+        <li><a href="apply.html">申请好友</a></li>
+    </ul>
+    </nav>
+  <!-- 导航栏结束 -->
+    <!-- 整体一张表格，记录旅行 -->
+        <table>
+            <caption>
+            我的旅行足迹
+            </caption>
+            <tr>
+    <!-- 有6列 -->
+                <th>城市</th>
+                <th>日期</th>
+                <th>天数</th>
+                <th>是否跟团</th>
+                <th>景点</th>
+                <th>评价</th>
+            </tr>
+    <!-- 共三个城市，且未完待续 -->
+            <tr>
+                <td>海南</td>
+                <td class="center">2015-07-25</td>
+                <td class="center">7</td>
+                <td class="right">是</td>
+                <td class="right">天涯海角</td>
+                <td class="center">3/5</td>
+            </tr>
+            <tr class="cellcolor">
+                <td>四川成都</td>
+                <td class="center">2017-07-07</td>
+                <td class="center">7</td>
+                <td class="right">否</td>
+                <td class="right">九寨沟</td>
+                <td class="center">5/5</td>
+            </tr>
+            <tr>
+                <td rowspan="2">上海</td>
+                <td rowspan="2" class="center">2018-07-20</td>
+                <td rowspan="2" class="center">5</td>
+                <td rowspan="2" class="right">否</td>
+                <td class="right">东方明珠</td>
+                <td class="center">4/5</td>
+            </tr>
+            <tr>
+                <td class="right">蜡像馆</td>
+                <td class="center">3/5</td>
+            </tr>
+            <tr class="cellcolor">
+                <td>下一站是？</td>
+                <td class="center">未知</td>
+                <td class="center">不明</td>
+                <td class="right">不是问题</td>
+                <td class="right">充满期待</td>
+                <td class="center">未完待续</td>
+            </tr>
+        </table>
+    </div>
+   <!-- 页脚栏随便写了写 -->
+    <footer>
+      &copy; 2020, smilemoon
+      <br>
+      Welcome to join my trip.<br>
+      All photos appearing on this site are the property of their respective owners.
+    </footer>
+  <!-- 页脚栏结束 -->
+    </body>
+</html>    

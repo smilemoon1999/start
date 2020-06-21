@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css/smilemoon.css" rel="stylesheet"/>
+  </head>
+  <!-- 插入一张雪山的图作为背景并且延展到全屏不重复 -->
+  <body  background="img/background.jpg" style=" background-repeat:no-repeat; background-size:100% 100%; background-attachment: fixed;">
+  <!-- 页眉由logo和座右铭组成 -->
+    <header class="top">
+  <!-- 插入一张组合的图作为logo并且摆在左上角 -->
+      <img id="headerLogo"
+        src="img/logo.png" alt="smilemoon logo image">
+  <!-- 插入一段文字的图作为座右铭并且固定在右上角 -->
+      <img id="headerSlogan"
+        src="img/slogan.png" alt="The road goes on forever as long as it doesn't stop.SO,don't stop!">
+    </header>
+  <!-- 页眉结束 -->
+  <!-- 这个区域划定为头像，点击头像会出现“个人资料”的网页 -->
+    <div class="content">
+        <a href="apply.html">
+            <img class="user-head" src="img/user-head.jpg" alt="头像无法显示">
+        </a>
+    </div>
+  <!-- 主体部分划分为一个大板块，规定一些默认的样式 -->
+    <div id="allcontent">
+  <!-- 导航栏 -->  
+    <nav>
+    <ul>
+        <li class="selected"><a href="homepage.gtml">首页</a></li>
+  <!-- 导航栏中该处存在有下拉菜单 -->
+        <span class="extend">
+        <li><a href="footpoint.html">我的足迹</a></li>
+            <ul class="sub-nav">
+                <li><a href="hainan.html">海南</a></li>
+                <li><a href="chengdu.html">成都</a></li>
+                <li><a href="shanghai.html">上海</a></li>
+            </ul>
+        </span>
+  <!-- 下拉菜单结束 -->
+        <li><a href="#">个人资料</a></li>
+        <li><a href="apply.html">申请好友</a></li>
+    </ul>
+    </nav>
+  <!-- 导航栏结束 -->
+  <!-- 像表格一样将接下来两块分为竖着并排摆列的两部分 -->
+    <div id="tableContainer">
+    <div id="tableRow">
+  <!-- 第一部分类似博客，通过标题跳转到详细网页 -->
+        <section id="blog">
+        <article>
+            <header>
+            <a href="hainan.html"><h1>海南：听大海的声音</h1></a>
+            <time datetime="2015-07-25">7/25/2015</time>
+            </header>
+                <p>
+                    海南，位于我国大陆的最南边，既临大海，便能感受其的澎湃与热情，海水滋润着我的身体,而海风荡漾着我的心...
+                </p>
+        <article>
+            <header>
+            <a href="chengdu.html"><h1>成都：人在画中游</h1></a>
+            <time datetime="2017-07-07">7/7/2017</time>
+            </header>
+                <p>
+                    成都，有闻名遐迩的大熊猫，有随处可见的地道火锅，有壮观惊奇的都江堰，也有着最让我印象深刻的九寨沟...
+                </p>
+        <article>
+            <header>
+            <a href="shanghai.html"><h1>上海：高楼映云天</h1></a>
+            <time datetime="2018-07-20">7/20/2018</time>
+            </header>
+                <p>
+                    上海魔都，在外滩，我真真正正地发出感慨，四周高楼倒映出蓝天白云，那些叫的出口的品牌都在眼前，繁华在此聚焦...
+                </p>
+        </section>
+  <!-- 博客部分结束 -->
+  <!-- 边栏介绍了BGM以及个人心得 -->
+        <aside>
+            <p>BGM: A Little Story</p>
+            <p>
+                如果我们不停下来，道路就会无限延伸，所以，不要停下来啊！<br>
+                我们通过旅游跳出熟悉的街道、小店，去短暂地感受另一个地区的别样风景，亦或是体会大自然的无穷魅力。<br>
+                无论如何，旅游总是充满惊喜，让我们能有着不可言说的乐趣。
+            </p>
+            <p>
+  <!-- 点击申请好友的按钮也能快速跳转 -->
+                如果你也和我一样热爱旅游，那就赶快<button><a href="apply.html">申请好友</a></button>吧
+            </p>
+        </aside>
+  <!-- 边栏结束 -->
+    </div>
+    </div>
+    </div>
+  <!-- 页脚栏随便写了写 -->
+    <footer>
+      &copy; 2020, smilemoon
+      <br>
+      Welcome to join my trip.<br>
+      All photos appearing on this site are the property of their respective owners.
+    </footer>
+  <!-- 页脚栏结束 -->
+  </body>
+</html>

@@ -1,0 +1,144 @@
+body{
+	background-color: white;
+	font-family: Georgia,"Times New Roman",Times,serif;
+  	font-size: small;
+ 	margin: 0px;
+	padding: 0px;
+}
+
+p{
+	line-height: 1.5em;
+}
+
+a{
+	text-decoration: none;
+}
+
+header.top{
+ 	margin: 10px 10px 0px 10px;
+ 	height: 128px;
+}
+
+header.top img#headerSlogan{
+	float: right;
+}
+
+.content{
+	float: left;
+	margin: 10px 0px 20px 80px;
+}
+
+.content .user-head{
+	width: 108px;
+ 	height: 108px;
+  	display: flex;
+  	border-radius: 50%;
+  	align-items: center;
+  	justify-content: center;
+  	overflow: hidden;
+}
+
+.content:hover .user-head{
+	border: 5px solid lightblue;
+}
+
+footer{
+  	background-color: #36c3;
+  	color:  #efe5d0;
+  	text-align: center;
+  	padding: 15px;
+  	margin: 20px 5px 0px 5px;
+  	font-size: 90%;
+}
+
+h1{
+  	font-size: 120%;
+  	color: #954b4b;
+}
+
+h2{
+  	font-size: 120%;
+}
+
+nav{
+	background-color: lightblue;
+	margin: 1px 10px 0px 10px;
+	font-size: 16px;
+            	list-style: none;
+            	text-decoration: none;
+	text-align: center;
+}
+
+nav ul{
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+
+nav ul li{
+	padding: 5px 40px 5px 40px;
+	position: relative;
+}
+
+nav ul li a:link,nav ul li a:visited{
+	color: #954b4b;
+	border-bottom: none;
+	font-weight: bold;
+}
+
+nav .extend .sub-nav{
+    	display: none;
+}
+
+nav .extend:hover .sub-nav{
+    	display: block;
+	background-color: #2eaaf294
+}
+
+
+nav ul li.selected{
+	background-color: #2eaaf294;
+}
+
+#form{
+	margin: 0px 20px 15px 20px;
+}
+
+form{
+	display: table;
+	padding: 10px;
+	border: thin dotted #7e7e7e;
+	background-color: lightblue;
+}
+
+div.tableRow{
+	display: table-row;
+}
+
+div.tableRow > p, div.tableRow > label, div.tableRow > input{
+	display: table-cell;
+	vertical-align: top;
+	padding: 3px;
+}
+
+div.tableRow label:first-child{
+	text-align: right;
+}
+
+form textarea{
+	display: table-cell;
+	width: 800px;
+	height: 100px;
+}
+
+legend{
+	font-weight: bold;
+}
+
+#allcontent{
+	width: 1080px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
